@@ -8,12 +8,20 @@
 <page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <!-- <update handle="default_head_blocks"/> -->
     <body>
+    <referenceBlock name="register-link" remove ="true"/>
         <!-- <move element="top.links" destination="header-wrapper" after="top.search"/> -->
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="styleguide" template="Magento_Theme::styleguide.phtml"/>
         </referenceContainer>
-        <!-- <referenceContainer name="panel header"> -->
-            
+        <referenceContainer name="header.panel">
+            <!-- <block class="Magento\Framework\View\Element\Template" name="header-top-center" before ="-" template="Magento_Theme::header_top.phtml"/> -->
+            <container name="header-top-container" htmlTag="div" htmlClass="header-top-center">
+                <block class="Magento\Cms\Block\Block" name="header-top-center">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">header-top-center</argument>
+                    </arguments>
+                </block>
+            </container>
         </referenceContainer>
     </body>
 </page>
