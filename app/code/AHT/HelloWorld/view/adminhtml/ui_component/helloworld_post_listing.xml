@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+	<argument name="data" xsi:type="array">
+		<item name="js_config" xsi:type="array">
+			<item name="provider" xsi:type="string">helloworld_post_listing.helloworld_post_listing_data_source</item>
+		</item>
+	</argument>
+	<settings>
+		<spinner>aht_helloworld_post_columns</spinner>
+		<deps>
+			<dep>helloworld_post_listing.helloworld_post_listing_data_source</dep>
+		</deps>
+		<buttons>
+			<button name="add">
+				<url path="*/*/addnew"/>
+				<class>primary</class>
+				<label translate="true">Add new User</label>
+			</button>
+		</buttons>
+	</settings>
+	<dataSource name="helloworld_post_listing_data_source" component="Magento_Ui/js/grid/provider">
+		<settings>
+			<storageConfig>
+				<param name="indexField" xsi:type="string">user_id</param>
+			</storageConfig>
+			<updateUrl path="mui/index/render"/>
+		</settings>
+		<aclResource>AHT_HelloWorld::Post</aclResource>
+		<dataProvider name="helloworld_post_listing_data_source" class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
+			<settings>
+				<requestFieldName>user_id</requestFieldName>
+				<primaryFieldName>user_id</primaryFieldName>
+			</settings>
+		</dataProvider>
+	</dataSource>
+	<listingToolbar name="listing_top">
+		<settings>
+			<sticky>true</sticky>
+		</settings>
+		<bookmark name="bookmarks"/>
+		<columnsControls name="columns_controls"/>
+		<filters name="listing_filters"/>
+		<paging name="listing_paging"/>
+	</listingToolbar>
+	<columns name="aht_helloworld_post_columns">
+		<settings>
+			<editorConfig>
+				<param name="selectProvider" xsi:type="string">helloworld_post_listing.helloworld_post_listing.aht_helloworld_post_columns.ids</param>
+				<param name="enabled" xsi:type="boolean">true</param>
+				<param name="indexField" xsi:type="string">post_id</param>
+				<param name="clientConfig" xsi:type="array">
+					<item name="saveUrl" xsi:type="url" path="aht_helloworld/Post/inlineEdit"/>
+					<item name="validateBeforeSave" xsi:type="boolean">false</item>
+				</param>
+			</editorConfig>
+			<childDefaults>
+				<param name="fieldAction" xsi:type="array">
+					<item name="provider" xsi:type="string">helloworld_post_listing.helloworld_post_listing.aht_helloworld_post_columns_editor</item>
+					<item name="target" xsi:type="string">startEdit</item>
+					<item name="params" xsi:type="array">
+						<item name="0" xsi:type="string">${ $.$data.rowIndex }</item>
+						<item name="1" xsi:type="boolean">true</item>
+					</item>
+				</param>
+			</childDefaults>
+		</settings>
+		<selectionsColumn name="ids">
+			<settings>
+				<indexField>user_id</indexField>
+			</settings>
+		</selectionsColumn>
+		<column name="user_id">
+			<settings>
+				<filter>text</filter>
+				<sorting>asc</sorting>
+				<label translate="true">ID</label>
+			</settings>
+		</column>
+		<!-- <column name="user_id">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">user_id</label>
+				<editor>
+					<editorType>text</editorType>
+					<validation>
+						<rule name="required-entry" xsi:type="boolean">false</rule>
+					</validation>
+				</editor>
+			</settings>
+		</column> -->
+		<!-- <actionsColumn name="actions" class="AHT\HelloWorld\Ui\Component\Listing\Column\PostActions">
+			<settings>
+				<indexField>user_id</indexField>
+				<resizeEnabled>false</resizeEnabled>
+				<resizeDefaultWidth>107</resizeDefaultWidth>
+			</settings>
+		</actionsColumn> -->
+		<column name="user_name">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">user_name</label>
+				<editor>
+					<editorType>text</editorType>
+					<validation>
+						<rule name="required-entry" xsi:type="boolean">false</rule>
+					</validation>
+				</editor>
+			</settings>
+		</column>
+		<column name="user_dob">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">user_dob</label>
+				<editor>
+					<editorType>date</editorType>
+					<validation>
+						<rule name="required-entry" xsi:type="boolean">false</rule>
+					</validation>
+				</editor>
+			</settings>
+		</column>
+	</columns>
+</listing>

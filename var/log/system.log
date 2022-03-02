@@ -1,0 +1,7 @@
+[2022-03-02 06:31:06] main.INFO: Theme layout update file '/var/www/html/magento/app/design/frontend/AHT/adorn/Magento_Theme/layout/default.xml' is not valid.
+Opening and ending tag mismatch: body line 10 and referenceContainer
+ Line: 17
+Opening and ending tag mismatch: page line 10 and body
+ Line: 18
+Extra content at the end of the document
+ Line: 19 [] []

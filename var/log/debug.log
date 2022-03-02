@@ -1,0 +1,26 @@
+[2022-03-02 06:31:05] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_SYSTEM_CONFIG"}} []
+[2022-03-02 06:31:06] main.INFO: Theme layout update file '/var/www/html/magento/app/design/frontend/AHT/adorn/Magento_Theme/layout/default.xml' is not valid.
+Opening and ending tag mismatch: body line 10 and referenceContainer
+ Line: 17
+Opening and ending tag mismatch: page line 10 and body
+ Line: 18
+Extra content at the end of the document
+ Line: 19 [] []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_b07c2a14ea05e14fdc15adb277b3d3e784acd86a"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-14-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-13-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-12-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-11-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-10-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-9-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-8-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-7-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-6-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-5-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-4-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:06] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_cd703c9f647066adeb05f707b8d62a637dc52fc3-3-final_price-list-category-page-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:07] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_90883fdf605a52516347edd8e9ecb2b31bf560a5"}} []
+[2022-03-02 06:31:07] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/gear/bags.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_516ce9f90ac21b1ee521877bf324fca55a29ccc6"}} []
+[2022-03-02 06:31:32] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/fusion-backpack.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_ea955249cf89db4adc73f0ee66e83fe5815b65a6-6-final_price-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:32] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/fusion-backpack.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_5b1d8b075c1a9cd505c8f5259284354c865e98f6-6-tier_price-USD-20220302-1-0-"}} []
+[2022-03-02 06:31:32] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://127.0.0.1/magento/fusion-backpack.html","invalidateInfo":{"identifier":"LOCKED_RECORD_INFO_BLOCK_ea955249cf89db4adc73f0ee66e83fe5815b65a6-7-final_price-USD-20220302-1-0-"}} []
