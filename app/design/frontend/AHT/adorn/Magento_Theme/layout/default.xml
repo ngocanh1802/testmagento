@@ -8,8 +8,9 @@
 <page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <!-- <update handle="default_head_blocks"/> -->
     <body>
-    <referenceBlock name="register-link" remove ="true"/>
+        <referenceBlock name="register-link" remove ="true"/>
         <!-- <move element="top.links" destination="header-wrapper" after="top.search"/> -->
+        
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="styleguide" template="Magento_Theme::styleguide.phtml"/>
         </referenceContainer>
